@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Mensaje.css"; 
+import "./State.css"; 
 
 const MensajeOculto = () => {
   const [mostrarMensaje, setMostrarMensaje] = useState(false);

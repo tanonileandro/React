@@ -1,13 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 import Producto from './Components/Producto';
-import MensajeOculto from './Components/Mensaje';
+import MensajeOculto from './Components/State';
+import TaskList from './Components/TaskList';
 
 
 function App() {
   return (
     <div className="App">
-      <div>
+      <h1>React</h1>
+      <div className='Producto'>
         <Producto
           nombre='AMD RX 6700'
           precio='200000'
@@ -21,13 +23,17 @@ function App() {
         <Producto
           nombre='AMD RX 6900 XT'
           precio='450000'
-          stock={200}
+          stock={50}
           descripcion='Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. 
         '/>
       </div>
 
       <div>
         <MensajeOculto/>
+      </div>
+
+      <div>
+        <TaskList/>
       </div>
 
     </div>

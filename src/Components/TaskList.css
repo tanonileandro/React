@@ -1,0 +1,11 @@
+input {
+  padding: 5px;
+  margin: 10px auto;
+}
+
+li {
+    margin: 5px auto;
+}
+li button {
+    margin-left: 10px;
+}
