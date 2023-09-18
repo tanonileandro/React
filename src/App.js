@@ -3,6 +3,7 @@ import './App.css';
 import Producto from './Components/Producto';
 import MensajeOculto from './Components/State';
 import TaskList from './Components/TaskList';
+import TodoList from './Components/useEffect';
 
 
 function App() {
@@ -34,6 +35,10 @@ function App() {
 
       <div>
         <TaskList/>
+      </div>
+
+      <div>
+        <TodoList/>
       </div>
 
     </div>
